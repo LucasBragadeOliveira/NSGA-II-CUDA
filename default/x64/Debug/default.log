@@ -1,0 +1,40 @@
+﻿Build started 02/07/2015 22:36:44.
+     1>Project "C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\default\default.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (default.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>CudaLink:
+         cmd.exe /C "C:\Users\Lucas\AppData\Local\Temp\tmpcd3d3dfc76154a7dbdecf9da9716acd8.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -dlink -o "x64\Debug\NSGA 2 CUDA.device-link.obj" -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib cudadevrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 64 x64\Debug\kernel.cu.obj
+         
+         C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\default>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -dlink -o "x64\Debug\NSGA 2 CUDA.device-link.obj" -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib cudadevrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 64 x64\Debug\kernel.cu.obj 
+         cudart.lib
+         cudadevrt.lib
+         kernel32.lib
+         user32.lib
+         gdi32.lib
+         winspool.lib
+         comdlg32.lib
+         advapi32.lib
+         shell32.lib
+         ole32.lib
+         oleaut32.lib
+         uuid.lib
+         odbc32.lib
+         odbccp32.lib
+         kernel.cu.obj
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\x64\Debug\NSGA 2 CUDA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib cudadevrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\x64\Debug\NSGA 2 CUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\x64\Debug\NSGA 2 CUDA.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         "x64\Debug\NSGA 2 CUDA.device-link.obj"
+         default.vcxproj -> C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\x64\Debug\NSGA 2 CUDA.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+                 2 arquivo(s) copiado(s).
+     1>Done Building Project "C:\Dropbox\Dropbox\Cefet\TCC\NSGA2 CUDA\default\default\default.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.28
